@@ -1,0 +1,46 @@
+SOBRE CRIAR  LINKS: 
+
+LINK INTERNO: (um outra página dentro do mesmo site)
+PARA LINKS INTERNOS BASTA COLOCAR: 
+EX:<a href+''vendas.html"> ACESSE A PÁGINA DE VENDAS </a<
+Observe que não é necessário neste caso colocar ''www''  ,''http'', etc...
+(OBS: Conforme você vai adicionando ítens na página vai ser preciso junto com isso alinhar os links para ele ir até o lugar que está respectivo ao link dentro da página)
+
+LINK EXTERNO :
+MESMA LINHA DE RACIOCÍNIO, PORÉM, COM OS ADICIONAIS:
+EX: <a hre= ''https: //tectreinamentos.com''></a>
+
+
+LINK ÂNCORA:
+ELE FUNCIONA DENTRO DA MESMA PÁGINA, PORÉM, É IDENTIFICADO COMO ID
+EX: <a href=''#professor''></a>
+obs: Pode usar uma Id que foi gerada dentro HTML para Gerar  o link, colocando o mesmo nome da Id dentro do link 
+
+html{
+  font-size: 62.5%; 
+  scroll-behavior:smooth;*/
+ *Comportamento de rolagem:Suave*/
+}
+
+Configuração para encontrar o centro da tela
+/*:[configuração para encontrar o centro da tela]*/
+  max-width: 1200px;
+  max-height:90%;
+  margin: 0 auto; 
+ min-height:0;
+  min-width: 0;
+  padding: 10px;
+ margin-top: 60px;
+  text-align: center;
+  font-family:arial;
+
+
+Como fazer uma lista não ordenada: 
+<ul>:
+O elemento HTML<ul> (ou elemento HTML de Lista desordenada ) representa uma lista de itens sem ordem rígida, isto é, uma coleção de itens que não apresentam uma ordem numérica e as suas posições, nessa lista, são irrelevantes. Caracteristicamente, os itens em uma lista desordenada são exibidos com um marcador que pode ter várias formas, como um ponto, um círculo, ou um quadrado. O tipo de marcador não é definido na descrição HTML da página, mas na CSS associada, utilizando a propriedade list-style-type (en-US) .
+
+<l> elementos da <l>
+O elemento HTML <li> (ou a Lista dos Itens de um elemento HTML) é usado para representar um item que faz parte de uma lista. Este item deve estar contido em um elemento pai: uma lista ordenada ( <ol>), uma lista desordenada ( <ul>) , ou um menu ( <menu> (en-US) ) e representa uma única entidade dessa lista. Em menus e listas desordenadas a relação de itens é exibida, normalmente, usando pontos de marcação (como bolinhas). Em listas ordenadas elas são, comumente, exibidas com algum contador ascendente - como um número, ou letra - à sua esquerda.
+
+
+

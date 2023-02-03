@@ -1,0 +1,391 @@
+/*Propriedade TOTAL*/
+*{
+	padding:0px;
+	border: 0px;
+	margin: 1px;
+}
+
+	html{
+  font-size: 62.5%; 
+  scroll-behavior:smooth;*/
+/*Comportamento de rolagem:Suave*/
+}
+header{
+	background-color:rgba(0, 0, 0, 1.00);   
+	color: #fff;
+	font-family:arial;
+	width: 100%;
+	position: fixed;
+	padding: 2px;
+/*		m  */
+	padding-top: 50px;
+	padding left: 50px;
+}
+
+body{
+	background-color:rgba(240,248,255);
+
+
+}
+.container{
+	display: block;
+	background-color:#fff ;
+	width: 95%;
+	/*sombra na caixa*/
+	box-shadow:3px 1px 7px ; 
+/*:[configuração para encontrar o centro da tela]*/
+  max-width: 1200px;
+  max-height:90%;
+  margin: 0 auto; 
+ 	min-height:0;
+  min-width: 0;
+  padding: 10px;
+ 	margin-top: 60px;
+  text-align: center;
+  font-family:arial;
+}
+
+/*button{
+	font-family: arial;
+	text-align: center;
+	padding:1px;
+	font-size:1.9rem;
+	background-color: 
+	color: #fff;
+	border: solid;
+	background-color: rgba(255,140,0);
+}*/
+
+footer{
+	font-family: arial;
+	color: #fff;
+	background-color:rgba(0, 0, 0, 1.00);
+	text-align: center;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+p{
+	font-family: arial;
+	text-align: justify;
+	padding:3px;
+	font-size: 1.6rem;
+
+}
+/*PROPRIEDADE ESPECIFICA*/
+h1{
+	font-family: arial;
+	text-align: center;
+	padding-top: 5px;
+	font-size: 2.5rem;
+}
+
+h2{
+	text-align: center;
+	font-family: arial;
+	margin: 0px;
+	font-size:2.5rem;
+	padding:5px;
+	padding-bottom: 5px;
+
+}
+
+h3{
+	color: rgba(255, 255, 255);
+	font-family: arial;
+	margin: 0px;
+	font-size: 1.5rem;
+	padding:7px;
+	padding-bottom: 5px;
+  margin-top: 0px ;
+  padding-top: 0px;
+  text-align: justify;
+  transition: all 900ms ease-in-out;
+  padding-right:10px ;
+
+}
+
+h5{
+	color:rgba(255, 255, 255);
+	font-family: arial;
+	text-align: center;
+	padding: 5px;
+	font-size:1.9rem;
+}
+
+h6{
+  text-align: center;
+	font-family: arial;
+	margin: 0px;
+	font-size:1.5rem;
+	padding:5px;
+	padding-bottom: 5px;
+}
+.texto-footer{
+	text-align: center;
+	font-family: arial;
+	padding-bottom:10px ;
+	padding-top:10px ;
+	font-size:1.6rem ;
+	padding-bottom: 10px;
+}	
+
+.texto-footer03{
+ 	text-align: center;
+	font-family: arial;
+	padding-bottom:10px ;
+	padding-top:10px ;
+	font-size:2.0rem ;
+	padding-bottom: 10px;
+}
+
+.compre{
+  width: 100px;
+	height: 75px;
+	position: fixed;
+	right: 0px;
+	text-align: center;
+	margin-top: 15%;
+  z-index:1 ; 
+	*	camada direcionada na tela numericamente determinada* primeira posição das camadas da página
+}
+
+#grid-container{
+	margin-top: 3px;
+	background-color: rgba(240,255,240);
+	padding: 3px;
+
+/*		referente as linhas de fora da e a cor */
+		
+
+	/*Criando os controles do grid (Grid são grades construídas para dividir  a tela e com isso inserir o conteúdo do site */
+}
+
+.grid{
+	display: grid;
+	grid-template-columns:repeat(auto-fill,minmax(300px, 1fr));
+	/*grip-grap(separação de colunas)*/
+	grid-gap:5px;
+	max-width: 1200px;	
+	padding:2px;
+	margin:0 auto;
+/*	 box-shadow: 0.2px 0,2px;*/
+}
+
+/*Referente ao grid que está dentro da div.*/
+.grid div{
+	background-color:rgba(224,255,255); azul 
+	font-family: arial;
+	text-align: center;
+	font-size: 1.6rem;
+	padding: 2px;
+	padding-bottom: 10px;
+  box-shadow: 1px 1px 2px #fff;
+}
+
+.button{
+	font-size: 25px;
+	border-radius: 2px;
+	color: steelblue;
+	z-index: 10;
+}
+
+#formulario{
+  background-color: rgba(224,255,255);
+
+}
+
+.formulario-contato{
+		font-family: arial;
+		font-size: 1.8rem;
+		padding: 10px;
+		text-align: left;
+		margin-left: 5px;
+		font-weight: bold;
+/*	box-shadow:1px 1px 2px 1px #0000; */
+		text-shadow: 1px 1px 2px #F0F8FF;
+}
+
+.formulario-contato01{
+	  font-family: arial;
+		font-size: 1.8rem;
+		padding: 10px;
+		text-align: left;
+		margin-left: 5px;
+		font-weight: bold;
+		text-shadow: 3px 3px 3px;
+		box-shadow: 2px 2px 5px;
+}
+
+#enviar{
+ 	background-color: rgba(152,251,152);
+  border-radius:5px;
+}
+
+#limpar{
+		background-color: rgba(152,251,152);
+		border-radius: 5px;
+	/*raio da borda*/
+}
+
+input{
+		text-align: left;
+		font-family: sans-serif;
+		font-size: 1.7rem;
+		padding: 5px;
+}
+
+.dados-formulario{
+  width:50%;
+}
+
+nav{
+		text-align: right;
+		margin-top: -40px;
+		font-weight: bold;
+		font-size: 1.8rem;
+		font-family: arial;
+		margin-right:2% ;
+		word-spacing: 10px;
+}
+
+a{
+	 text-decoration: none;
+	 color: rgba(255, 255, 255);
+	 transition: all 900ms ease-in-out;
+	 font-size: 1.5rem;
+}
+
+a:hover{
+ 	color:rgba(255,127,0);
+
+/*Significa que nós queremos um link comum quando o mouse estiver em cima do mesmo */
+}
+
+.imagemgrid{
+	width: 18rem;
+	height:10rem ;
+}
+
+.texto-grid{
+	font-family: arial;
+	text-align: center;
+	font-size: 1.6rem;
+	margin-top: 10px;
+	margin-left:10px ;
+	margin-right: 10px;
+  font-weight: bold;
+}
+
+.link-grid{
+	
+	font-size: 1.5rem;
+	font-weight: bold;
+	margin-top: 35px; 
+	padding: 5px;
+	background-color: rgba(0, 0, 0, 1.0);
+	border-radius: 10px;
+}
+
+.imagemgrid{
+  width: 18rem;
+  height: 10rem;
+  border-radius:8px;
+}
+
+.container2
+{   
+	  text-align: center;
+		font-family: arial;
+		margin: 0px;
+		font-size:1.5rem;
+		padding:5px;
+		padding-bottom: 5px;
+}
+
+#imgprofessora{
+		width: 135px;
+		height: 135px;
+		box-shadow: 3px 3px 3px #B0E0E6;
+		border-radius: 50% ;
+		padding: 15px;
+		/*background-image: #0000;
+		image-orientation: center;
+		border-image-width: 50px;*/
+		/*raio da borda ;*/
+}
+
+#sobre{
+
+    font-family: arial;
+		text-align: center;
+		padding:1,5px;
+		font-size: 1.6rem;
+		margin-top: 0px;
+}
+
+#prof{
+		box-shadow: 2px 2px 5px;
+		padding: 0px;
+		font-family: arial;
+		font-size: 1.3rem;
+		/*margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 30px;*/
+		max-width: 1200px;
+		max-height:90%;
+		margin: 0 auto; 
+		min-height:0;
+		min-width: 0;
+		padding: 10px;
+		margin-top: 60px;
+		text-align: center;
+		font-family:arial;
+}
+
+#sobre{
+
+	  font-size: 1,0rem;
+	  font: arial;
+	  text-align: center;
+}
+
+p{
+	padding:4px;
+	padding-right:3px;
+	margin-top: 0px;;
+	font-size: 1.7rem;
+	margin: 0px;
+	text-align: justify;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font: arial;
+}
+ul,li{
+
+  font-size:1.8rem;
+  font-family: arial;
+  text-align: left;
+  margin left:35px;
+  margin-right: auto;
+  padding-bottom: 10px;
+  padding: 25px;
+  margin: 0px;
+}
+
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
