@@ -172,6 +172,8 @@ h6{
 /*	 box-shadow: 0.2px 0,2px;*/
 }
 
+
+
 /*Referente ao grid que está dentro da div.*/
 .grid div{
 	background-color:rgba(224,255,255); azul 
@@ -214,7 +216,7 @@ h6{
 		margin-left: 5px;
 		font-weight: bold;
 		text-shadow: 3px 3px 3px;
-		box-shadow: 2px 2px 5px;
+		
 }
 
 #enviar{
