@@ -17,14 +17,16 @@ header{
 	width: 100%;
 	position: fixed;
 	padding: 2px;
-	padding-top: 50px;
+	padding-top: 48px;
 	padding left: 50px;
 }
 
 @media(min-width: 320px) and (max-width: 450px){
+	
 	header{
 		text-align: CENTER;
-}
+    padding-top: 0px;
+}		
 
 }				
 
@@ -92,7 +94,6 @@ h2{
 	font-size:2.5rem;
 	padding:5px;
 	padding-bottom: 5px;
-
 }
 
 h3{
@@ -104,7 +105,7 @@ h3{
 	padding-bottom: 5px;
   margin-top: 0px ;
   padding-top: 0px;
-  text-align: center;
+/*  text-align: justify;*/
   transition: all 900ms ease-in-out;
   padding-right:10px ;
 
@@ -254,6 +255,7 @@ nav{
 		font-family: arial;
 		margin-right:2% ;
 		word-spacing: 10px;
+/*	espaço entre as palavras	*/
 }
 
 a{
@@ -269,9 +271,12 @@ a:hover{
 /*Significa que nós queremos um link comum quando o mouse estiver em cima do mesmo */
 }
 
-.imagemgrid{
+/*.imagem-grid{
 	width: 18rem;
-	height:10rem ;
+	height:10rem */;
+	
+                /* facilidade em auto */
+
 }
 
 .texto-grid{
@@ -294,11 +299,11 @@ a:hover{
 	border-radius: 10px;
 }
 
-.imagemgrid{
+/*.imagem-grid{
   width: 18rem;
   height: 10rem;
   border-radius:8px;
-}
+}*/
 
 .container2
 {   
@@ -379,6 +384,33 @@ ul,li{
   padding: 25px;
   margin: 0px;
 }
+
+@media(min-width: 320px) and (max-width: 450px){
+nav{
+	text-align: center;
+	margin-top: 10px;
+	font-weight: bold;
+	font-size: 1.6rem;
+	font-family: arial;
+	word-spacing: 15px;
+}
+}
+
+.imagem-grid{
+	transition: 300ms ease-in-out; 
+	imagem-grid
+  width: 18rem;
+  height: 10rem;
+  border-radius:8px;
+
+}	
+img:hover{
+ transform: scale(1.1); 
+ border: snow rgba(255, 255, 255, 1.0);
+ box-shadow: 2px 2px 4px;
+
+}  
+
 
 
 	
